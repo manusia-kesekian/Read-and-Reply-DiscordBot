@@ -1,3 +1,5 @@
+// Command dengan slash insyallah kalau ada waktu dah
+
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
