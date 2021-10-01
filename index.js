@@ -6,7 +6,8 @@ const client = new Client({
 });
 
 client.once('ready', () => {
-	console.log(`${client.user.tag} is online boys!`);    
+	console.log(`${client.user.tag} is online boys!`);
+    client.user.setActivity(`sepi`, { type: "WATCHING" });
 });
 
 const kasar = ["anjing", "babi", "monyet"];
@@ -38,4 +39,4 @@ client.on("messageCreate", message => {
     }
 });
 
-client.login(token2);
+client.login(token);
